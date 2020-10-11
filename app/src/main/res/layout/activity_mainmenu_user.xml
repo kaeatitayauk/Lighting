@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="60dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="60dp"
+    android:background="#b6cdf1"
+    tools:context="com.example.samlee.lighting.mainmenu_user">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/light" />
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/textView_style"
+            android:layout_margin="5dp"
+            android:text="Lighting" />
+        <Button
+            android:id="@+id/btn_userxcal"
+            style="@style/button_styleMain"
+            android:text="คำนวณค่าไฟฟ้า" />
+
+        <Button
+            android:id="@+id/btn_userxreport"
+            style="@style/button_styleMain"
+            android:text="ดูรายงาน" />
+
+
+        <Button
+            android:id="@+id/btn_userxcontact"
+            style="@style/button_styleMain"
+            android:text="ติดต่อ/ช่วยเหลือ" />
+
+        <Button
+            android:id="@+id/btn_backhome"
+            style="@style/button_styleMain"
+            android:text="กลับสู่หน้าแรก" />
+
+    </LinearLayout>
+
+</RelativeLayout>

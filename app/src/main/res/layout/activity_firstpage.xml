@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="100dp"
+    android:paddingLeft="48dp"
+    android:paddingRight="48dp"
+    android:paddingTop="100dp"
+    android:background="#d8ffe684"
+    tools:context="com.example.samlee.lighting.firstpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/light" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/textView_style"
+            android:layout_margin="5dp"
+            android:text="Lighting" />
+
+
+        <EditText
+            android:id="@+id/Username"
+            style="@style/editText_style"
+            android:hint="Username"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/Password"
+            style="@style/editText_style"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonlogin"
+            style="@style/button_style"
+
+
+            android:text="เข้าสู่ระบบ" />
+
+
+        <TextView
+            android:id="@+id/text_signup"
+            style="@style/textView_style"
+            android:text="สมัครสมาชิก"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnuser"
+            style="@style/button_styleMain"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:text="ทดลองใช้งาน" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

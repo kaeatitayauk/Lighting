@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.samlee.lighting">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/light_bulb_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".firstpage"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".calendarActivityUser" />
+        <activity
+            android:name=".mainmenu_user"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home_userxcal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calmainxuser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cal_userxupload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calendarUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Signup_Activity_Admin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Success_Activity_Admin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mainmenu_admin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cal_userxcamera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cal_cameraupload_MainUser"
+            android:screenOrientation="portrait" />
+        <activity android:name=".List_Mani_Admin" />
+        <activity android:name=".ShowAllAdmin" />
+        <activity android:name=".InforAdmin" />
+        <activity android:name=".UpdateAdmin" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Admin_Home_Admin" />
+        <activity android:name=".calmain_admin" />
+        <activity android:name=".Setting_ad" />
+        <activity android:name=".calendarActivityAdmin" />
+        <activity android:name=".calendarAdmin" />
+        <activity android:name=".cal_adminxupload" />
+        <activity android:name=".cal_cameraupload_MainAdmin" />
+        <activity android:name=".cal_adminxcamera" />
+        <activity android:name=".Contact_user" />
+        <activity android:name=".Contact_Admin"></activity>
+    </application>
+
+</manifest>

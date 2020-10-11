@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0762a3"
+    android:padding="16dp">
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/imageView_camera"
+                android:layout_width="match_parent"
+                android:layout_height="352dp"
+                app:srcCompat="@drawable/light_bulb_icon"
+                tools:ignore="VectorDrawableCompat" />
+
+            <Button
+                android:id="@+id/btn_camera"
+                style="@style/button_style"
+                android:text="ถ่ายรูปภาพ" />
+
+            <Button
+                android:id="@+id/btn_actioncameraprocess"
+                style="@style/button_style"
+                android:visibility="invisible"
+                android:text="ประมวลผล" />
+
+            <TextView
+                android:id="@+id/textView_procamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txt_output_calcamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                />
+            <TextView
+                android:id="@+id/txt_output_moneycamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:visibility="invisible"
+                />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
